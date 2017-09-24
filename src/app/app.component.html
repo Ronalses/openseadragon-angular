@@ -1,0 +1,7 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="containerOpen">
+  <div id="openseadragon1" style="width: 100%; height: 600px; margin: 0 auto;">
+    <button md-fab class="activeBtn" (click)="handleButton()">Line</button>
+    <md-slider vertical (input)="handleChange($event)" min="1" max="10" step="1" value="1" class="slider" [disabled]="!dibujar"></md-slider>
+  </div>
+</div>
